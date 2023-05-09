@@ -31,7 +31,7 @@ model Account {
   type String 
   provider String 
   provider_account_id String
-  refresh_token String
+  refresh_token String?
   access_token String
   expires_at Int? 
   token_type String?
