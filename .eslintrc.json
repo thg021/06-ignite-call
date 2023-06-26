@@ -1,6 +1,15 @@
 {
-  "extends": ["@rocketseat/eslint-config/react","next/core-web-vitals"], 
+  "extends": ["@rocketseat/eslint-config/react","next/core-web-vitals"],
   "rules": {
-    "no-unused-vars":  "warn"
-  } 
+    "no-unused-vars":  "warn",
+    "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true,
+          "trailingComma": "all",
+          "semi": false
+        }
+      ],
+      "camelcase": "off"
+  }
 }
