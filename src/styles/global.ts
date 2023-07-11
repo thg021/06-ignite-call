@@ -1,4 +1,4 @@
-import { globalCss } from "@thgsdev-ui/react";
+import { globalCss } from '@thgsdev-ui/react'
 
 export const globalStyles = globalCss({
   '*': {
